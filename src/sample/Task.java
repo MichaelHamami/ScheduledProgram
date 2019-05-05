@@ -10,7 +10,7 @@ public class Task {
     private int numberTask;
 
 
-    public Task(Date date, String name, String time, int numberTask) {
+    public Task(String name,Date date, String time, int numberTask) {
         this.date = date;
         this.name = name;
         this.time = time;
